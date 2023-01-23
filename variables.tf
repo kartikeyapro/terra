@@ -1,6 +1,6 @@
 variable "rg1" {
-  description = "KS-Dev"
-  type        = string
+  default = "KS-Dev"
+  
 }
 
 variable "vnet" {
